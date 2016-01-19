@@ -1,0 +1,10 @@
+name: Eventy
+version: 0.1
+main: pl.panryba.mc.contests.Plugin
+depend: [Gildie]
+commands:
+  event:
+    usage: /<command>
+permissions:
+  contents.*:
+    default: op
